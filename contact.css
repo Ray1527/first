@@ -1,0 +1,18 @@
+*{margin: 0; padding: 0; 
+    box-sizing: border-box; text-align: center; 
+    font-family: 'Gugi', cursive; background-color: #4070f4;}
+    
+    main{
+     width: 75%; margin: 50px auto; 
+     border:1px solid grey;
+     display: grid;
+    
+     grid-template-rows: 100px 100px 100px 100px 100px 100px 100px;
+     grid-template-columns: repeat(2,1fr);
+     grid-gap: 10px;
+     
+    }
+    
+     .div1{ grid-column: 1/-1;}
+     .div2{ grid-row: 2/4;}
+     .div3{ grid-row: 2/4; }

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<!-- === Coding by CodingLab | www.codinglabweb.com === -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- ===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="form.css">
+         
+   
+</head>
+<!-- <script>
+    function myFunction()
+    {
+        var un =document.forms[""]
+    }
+</script> -->
+<body>
+    <header>
+        <div class="inner">
+          
+            <div class="logo">TOURISM & PLANS
+                <div>
+                    <!-- The below line can be an image or a h1, either will work -->
+                    <img src="logo.jpg" alt="">
+                    <!-- <h1>My Logo</h1> -->
+                </div>
+            </div>
+        <video autoplay loop muted plays-inline class="back-video">
+            <source src="web.mp4" type="video/mp4">
+        </video>
+
+            <nav>
+                <ul class="nav">
+
+                <li><span><a href="">About</a></span></li>
+              
+                <li><a href="contact.html" class="button">Contact</a></li>
+            </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class="forms">
+            <div class="form login">
+                <span class="title">Login</span>
+            
+
+                <form action="p2.html" method="post">
+                    <div class="input-field">
+                        <input id="mail" input type="text" placeholder="Enter your email *" required
+                        onfocus="focusFunction(document.getElementById('mail'))"
+                        onblur="blurFunction(document.getElementById('mail'))"
+                        <i class="uil uil-envelope icon"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="password "input id="password" placeholder="Enter your password *" required
+                        onfocus="focusFunction(document.getElementById('password'))" 
+                        onblur="blurFunction(document.getElementById('password'))">
+                        <i class="uil uil-lock icon"></i>
+                        <i class="uil uil-eye-slash showHidePw"></i>
+                    </div>
+
+                    <div class="checkbox-text">
+                        <div class="checkbox-content">
+                            <input type="checkbox" id="logCheck">
+                            <label for="logCheck" class="text">Remember me</label>
+                        </div>
+                        
+                       
+                    </div>
+
+                    <div class="input-field button">
+                        <a href="/p2.html"><button class="butt" color="white" onclick="confirm()">LOGIN NOW</button></a>
+                    <!---- <input type="button" value="LOGIN NOW" onclick="p2.html">-->
+                
+
+                      
+                    </div>
+                
+
+                
+                </form>
+
+                <div class="login-signup">
+                    <span class="text">Not a member?
+                        <a href="#" class="text signup-link">Signup now</a>
+                    </span>
+                <a href="p2.html"></a>
+                </div>
+            </div>
+
+            <!-- Registration Form -->
+            <div class="form signup">
+                <span class="title">Registration</span>
+
+                <form action="p2.html" method="post">
+                    <div class="input-field">
+                        <input type="text" input id="name" placeholder="Enter your name *" required
+                        onfocus="focusFunction(document.getElementById('name'))" 
+                        onblur="blurFunction(document.getElementById('name'))">
+                        <i class="uil uil-user"></i>
+                    </div>
+                    <div class="input-field">
+                        <input id="mail" input type="text" placeholder="Enter your email *" required>
+                    
+                        <i class="uil uil-envelope icon"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="password" input id="password" placeholder="Create a password *" required>
+                  
+                        <i class="uil uil-lock icon"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="password" input id="password" placeholder="Confirm a password *" required>
+                      
+
+                        <i class="uil uil-lock icon"></i>
+                        <i class="uil uil-eye-slash showHidePw"></i>
+                    </div>
+
+                    <div class="checkbox-text">
+                        <div class="checkbox-content">
+                            <input type="checkbox" id="sigCheck">
+                            <label for="sigCheck" class="text">Remember me</label>
+                        </div>
+                        
+                        <a href="#" class="text">Forgot password?</a>
+                    </div>
+
+                    <div class="input-field button">
+                      <input type="button" value="Login Now" >
+                       
+                </form>
+
+                <div class="login-signup">
+                    <span class="text">Not a member?
+                        <a href="#" class="text login-link">Signup now</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="test.js"></script>
+    <script src="form.js"></script>
+
+</body>
+</html>

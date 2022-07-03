@@ -1,0 +1,92 @@
+<html>
+
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="s1.css">
+    <link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
+    <style>
+        p:hover{
+            background-color: aqua;
+        }
+        .div2 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+    </style>
+</head>
+
+<body
+    style="background-image: url('travel.jpg');">
+    <script>
+      alert("You have successfully logged in");
+    </script>
+
+    <main>
+        <div class="div1">
+            <h2>SELECT ANY PLACE FOR THE NEARBY HOTELS</h2>
+        </div>
+        <div class="div2"> <a href="hyd.html"> <img
+            onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0"
+                    src="charminar.jpg"
+                    alt="" width="200px" height="150px"> </a> <br><p>HYDERABAD</p></div>
+
+
+        <div class="div3"> <a href=""><img
+            onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0"
+                    src="thir.jpg"
+                    alt="" width="300px" height="200px"></a> <br><p> TIRUVANANTHAPURAM </p></div>
+        <div class="div4"> <a href="" width="300px" height="200px"><img
+            onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0"
+                    src="mys.jpg"
+                    alt="" width="300px" height="200px"></a> <br><p> MYSORE </p></div>
+        <div class="div5"><a href=""><img
+            onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0"
+                    src="virupaksha.jpg" alt=""
+                    width="300px" height="200px"></a> <br><p>HAMPI</p> </div>
+
+                    <script>
+                        function bigImg(x) { 
+                          x.style.height = "200px";
+                          x.style.width = "300px";
+                        }
+                        
+                        function normalImg(x) {
+                          x.style.height = "150px";
+                          x.style.width = "200px";
+                        }
+                        </script>
+    </main>
+
+</body>
+
+</html>
